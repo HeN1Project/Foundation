@@ -130,6 +130,8 @@ namespace Helium
 		void Set( PointerT* pObject );
 		void Release();
 		bool ReferencesObject() const;
+		void Hen1_Release(){m_pProxy=NULL;}
+
 		//@}
 
 		/// @name Proxy Referencing

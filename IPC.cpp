@@ -197,8 +197,9 @@ namespace ProtocolMessageIDs
 
 // Debug printing
 //#define IPC_CONNECTION_DEBUG
+//#pragma GCC diagnostic ignored "-Wunused-variable"  //HeN1
 
-static const char* ConnectionStateNames[] = 
+static const char* ConnectionStateNames[] =
 {
 	TXT( "Waiting" ),
 	TXT( "Active" ),
